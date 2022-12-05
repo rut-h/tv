@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>survey form</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="Icon" type="image" href="favicon.ico">
+  </head>
+  <body>
+    <h1 style="text-align:center"; font-size="40px";><b>Ruth Survey</b></h1>
+    <h4 style="text-align:center;"><i>Thank you for taking your time to fill this survey</i></h4>
+    <form>
+      <div class="content">
+
+
+      <label>Name</label>
+      <input type="name" name="name" placeholder="enter your name" class="box"><br><br>
+      <label>Email</label>
+      <input type="email" name="email" placeholder="enter your Email" class="box"><br><br>
+      <label>Age (optional)</label>
+      <input type="age" name="age" placeholder="enter your age" class="box"><br><br>
+      <label>Which option best describes Ruth</label>
+
+      <div id="optional">
+
+
+      <select>
+        <option name="describe Ruth" class="name">describe Ruth</option>
+        <option value="Ruth is amazing" class="value">Ruth is amazing</option>
+        <option value="Ruth is just that girl fr :)">Ruth is just that girl fr :)</option>
+        <option value="have you seen Ruth? bffr">have you seen Ruth? bffr</option>
+        <option value="other amazing qualities that's just too much to mention">other amazing qualities that's just too much to mention</option>
+
+      </select>
+      </div>
+    </div>
+    <br>
+  <h3>  <label id="head1">would you recommend Ruth to a friend?</label><br><br> </h3>
+    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspDefinitely<br><br>
+    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspOf Course!<br><br>
+    <input type="radio" name="radio" class="larger">&nbsp&nbsp&nbspYes is the only right answer<br><br>
+    <h3><label>What's your favorite thing about Ruth</label></h3><br><br>
+    <div id="option2">
+     <select>
+        <option name="select an option">select an option</option>
+        <option value="Her smile">Her smile</option>
+        <option value="Her bravery">Her bravery</option>
+        <option value="Bro, Ruth is just perfect">Bro, Ruth is just perfect</option>
+        <option value="I need space to type a paragraph">I need space to type a paragraph</option>
+      </select>
+
+    </div>
+  <h3> <label id="head2">what would you like Ruth to improve? check all that apply</label></h3>
+    <div id="content2">
+       <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspmore confidence</label><br><br>
+       <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspstep on more necks</label><br><br>
+       <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspmore sexiness</label><br><br>
+       <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspmore discipline</label><br><br>
+       <input type="checkbox" name="checkbox" class="larger"><label>&nbsp&nbsp&nbspokay that's enough, not many flaws here</label><br><br>
+
+    </div>
+  <h3><label id="head2">Any comments or suggestions?</label><br><br></h3>
+    <textarea placeholder="Enter">Enter your comment here...</textarea><br><br>
+    <button>submit</button>
+    </form>
+  </body>
+</html>

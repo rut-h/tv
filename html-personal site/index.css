@@ -1,0 +1,63 @@
+*{
+  margin:0;
+  padding:0;
+}
+body{background-color:pink ;
+     background-size: cover;
+     background-attachment:scroll;
+     font-family: system-ui;
+     background-image: url(ruth1.jpg);
+     background-repeat: no-repeat;
+     color: white;
+}
+form{background-color: rgba(0, 0, 0, 0.5);
+     text-align: left;
+     padding: 30px;
+     border: none;
+
+
+     margin:auto;
+     margin-top: 10px;
+     width: 54%;
+     border-radius: 20px}
+h1,h2{padding-top: 100px}
+
+.box{width: 450px;
+          height:30px;
+          border-radius: 20px;}
+
+
+.name,.value{width:450px;
+                         height:30px;
+                         border-radius:20px;}
+#optional select {width:450px;
+           height:30px;
+           border-radius: 20px;
+          border: none;}
+
+#option2 select{width:450px;
+           height:30px;
+           border-radius: 20px;
+           border: none;}
+
+h3{padding-top: 40px;}
+
+#content2 select{width:450px;
+           height:30px;
+           border-radius: 20px;}
+
+ textarea{width:450px;
+             height:125px;
+             border-radius: 20px;
+             position: relative;
+            border-bottom: 10px;
+            border: none;}
+button{ background-color: rgb(18,219,78);
+        width:450px;
+        height: 30px;
+        position: relative;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;}
+button:hover{background-color: rgb(18,210,78);}
+button:active{background-color: rgb(60,60,60);}
